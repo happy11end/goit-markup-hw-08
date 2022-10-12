@@ -63,7 +63,8 @@ body {
 .header-contacts-link:focus {
   color: var(--blue-color);
 }
-.header-link-studio,.header-link-portfolio {
+.header-link-studio,
+.header-link-portfolio {
   color: var(--blue-color);
 }
 
