@@ -63,10 +63,9 @@ body {
 .header-contacts-link:focus {
   color: var(--blue-color);
 }
-.header-link-studio{
+.header-link-studio {
   color: var(--blue-color);
 }
-
 
 /*----------------Main-------------------*/
 .section-hero {
@@ -99,7 +98,7 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -172,10 +171,11 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.footer-list-adress{
+.footer-list-adress {
   color: var(--white-color);
 }
-.footer-list-item-contacts:hover,.footer-list-item-contacts:focus{
+.footer-list-item-contacts:hover,
+.footer-list-item-contacts:focus {
   color: var(--blue-color);
 }
 
