@@ -64,11 +64,9 @@ body {
   color: var(--blue-color);
 }
 .header-link-studio{
-  accent-color: var(--blue-color);
+  color: var(--blue-color);
 }
-.header-link-portfolio{
-  accent-color: var(--blue-color);
-}
+
 
 /*----------------Main-------------------*/
 .section-hero {
@@ -94,25 +92,34 @@ body {
   cursor: pointer;
 }
 
-.title-features {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .list-section {
   list-style: none;
 }
 .list-title {
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .list-item {
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--gray-color);
 }
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -124,7 +131,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.employee-function {
+.employee-position {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -162,20 +169,18 @@ body {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--gray-color);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 .footer-list-adress{
   color: var(--white-color);
 }
+.footer-list-item-contacts:hover,.footer-list-item-contacts:focus{
+  color: var(--blue-color);
+}
 
 /*--------------------Portfolio-----------------*/
-.section-portfolio {
-  background-color: var(--white-color);
-}
-.section-portfolio-title{
-  visibility: hidden;
-}
+
 .filters {
   list-style: none;
 }
