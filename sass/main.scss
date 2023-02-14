@@ -1,12 +1,15 @@
 @import "./utils/variables";
 @import "./utils/visually-hidden";
+@import "./base/mixin";
 @import "./base/common";
 @import "./base/container";
 @import "./component/logo";
 @import "./component/backdrop";
-@import "./component/modal";
 @import "./component/button";
+@import "./component/modal";
 @import "./component/filters";
+@import "./component/social";
+@import "./component/mobile-menu";
 @import "./layout/section";
 @import "./layout/page-header";
 @import "./layout/page-hero";
